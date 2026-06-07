@@ -1,0 +1,8 @@
+name = "meater-relay"
+main = "src/index.js"
+compatibility_date = "2025-03-01"
+
+# Secrets are NOT stored here. Set them with:
+#   npx wrangler secret put MEATER_EMAIL
+#   npx wrangler secret put MEATER_PASSWORD
+# (or `npx wrangler secret put MEATER_JWT` to skip the login step)

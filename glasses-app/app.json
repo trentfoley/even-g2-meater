@@ -1,0 +1,19 @@
+{
+  "package_id": "com.evolv.g2meater",
+  "edition": "202601",
+  "name": "Meater Cooks",
+  "tagline": "Watch the meat, not your phone.",
+  "description": "See your live MEATER cooks right in your sightline — each probe's internal temp, target, ambient, cook progress, and estimated time remaining, shown on your Even Realities G2 glasses and refreshed continuously so you can watch the meat instead of your phone. Double-press the touchpad to exit.",
+  "version": "0.1.0",
+  "min_app_version": "2.0.0",
+  "min_sdk_version": "0.0.10",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Fetches active MEATER cook data from the relay service.",
+      "whitelist": ["https://meater-relay.foley-meater.workers.dev"]
+    }
+  ],
+  "supported_languages": ["en"]
+}

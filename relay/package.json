@@ -1,0 +1,14 @@
+{
+  "name": "meater-relay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker relay: MEATER Cloud -> CORS-enabled active-cooks JSON for the G2 app",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": ">=3"
+  }
+}
